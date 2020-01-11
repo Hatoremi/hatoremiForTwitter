@@ -1,0 +1,47 @@
+body {
+  background-color: #faf8f5;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a:hover {
+  color: #d12727;
+}
+
+.header {
+  background-color: #dda0dd;
+  color: #ffffff;
+  height: 90px;
+}
+
+.header-main {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+  font-family: cursive;
+}
+
+.hedaer-list {
+  float: left;
+}
+
+.hedaer-list a {
+  float: left;
+  padding: 33px 20px;
+  height: 10px;
+}
+
+.footer {
+  background-color: #26d0c9;
+  color: #ffffff;
+  height: 120px;
+  padding: 40px;
+}
+
+.footer-main {
+  float: left;
+  font-size: 32px;
+}
