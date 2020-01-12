@@ -1,1 +1,2 @@
-# hatoremiForTwitter
+## hatoremiForTwitter
+Twitterのプロフィールに何かリンクを貼ろうと思い作ったやつです。
