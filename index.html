@@ -5,36 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>hatoremi</title> 
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!-- https://Hatoremi.github.io/hatoremiForTwitter -->
 </head>
-<body>
-    <div class="header">
-        <div class="header-main">hatoremi</div>
-        <div class="hedaer-list">
-            <ul>
-                <a href="#epicgames">EpicGames</a>
-                <a href="#steam">Steam</a>
-            </ul>
-        </div>
+<body class="bg-white">
+    <div class="p-3 mb-2 bg-success text-white"> <!--header-->
+        <div class="h1 float-left">Hatoremi</div>
+        <ul class="h5">
+            <a href="#epicgames" class="ml-5 mt-3 px-2 badge badge-secondary">EpicGames</a>
+            <a href="#steam" class="ml-3 mt-3 px-2 badge badge-secondary">Steam</a>
+        </ul>
     </div>
-    <div class="content">
-        <h2 id="epicgames" class="platform">EpicGames</h2>
-        <h3>account</h3>
-        <div>hatoRemi.S</div>
-        <h3>Playing Games</h3>
-        <div class="games">
+    <div><!--content-->
+        <div class=" ml-2">
+            <h2 id="epicgames" class="card bg-light p-1">EpicGames</h2>
+            <h3 class="border-bottom">Account</h3>
+            <div class="lead ml-3">hatoRemi.S</div>
+            <h3 class="border-bottom">Playing Games</h3>
             <ul>
                 <li>Fortnite</li>
                 <li>Borderlands</li>
                 <li>Satisfactory</li>
             </ul>
+        </div>
         <br>
-        <h2 id="steam" class="platform">Steam</h2>
-        <h3>account</h3>
-        <div>Hatoremi</div>
-        <h3>Playing Games</h3>
-        <div class="games"></div>
+        <div class="ml-2">
+            <h2 id="steam" class="card bg-light p-1">Steam</h2>
+            <h3 class="border-bottom">Account</h3>
+            <div class="lead ml-3">Hatoremi</div>
+            <h3 class="border-bottom">Playing Games</h3>
             <ul>
                 <li>Cities: Skyline</li>
                 <li>Factorio</li>
@@ -47,14 +46,14 @@
                 <li>Orcs Must Die!</li>
                 <li>Undertale</li>
             </ul>
-    </div>
-    </div>
-    <div class="footer">
-        <div class="footer-main">
-            <div>for now</div>
         </div>
     </div>
+    <br>
+    <div class="bg-dark p-4"><!--footer-->
+        <div class="ml-2 h5 text-light">SOMEDAY</div>
+    </div>
 
-    <script src="app.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
